@@ -1,0 +1,13 @@
+:root { --ink: #33294D; --soft: #736B8C; --coral: #F5845C; --paper: #FCFAFF; --sky: #BFE7FF; --sand: #F4E9C9; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 400 18px/1.6 'Nunito', system-ui, sans-serif; color: var(--ink);
+  background: linear-gradient(180deg, var(--sky), var(--sand)) fixed; }
+main { max-width: 720px; margin: 32px auto; padding: 28px 24px 40px; background: var(--paper);
+  border-radius: 28px; box-shadow: 0 10px 30px rgba(51, 41, 77, .15); }
+@media (max-width: 760px) { main { margin: 16px; } }
+h1 { font: 400 40px/1.1 'Lilita One', sans-serif; margin: 0 0 6px; }
+h2 { font: 400 26px/1.2 'Lilita One', sans-serif; color: var(--coral); margin: 28px 0 6px; }
+h3 { font-weight: 900; font-size: 19px; margin: 18px 0 2px; }
+.meta { color: var(--soft); margin: 0 0 18px; }
+.lead { font-weight: 700; font-size: 20px; }
+a { color: #B03FC4; }
